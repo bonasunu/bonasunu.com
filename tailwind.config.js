@@ -9,4 +9,7 @@ module.exports = {
   },
   variants: {},
   plugins: [],
+  corePlugins: {
+    textColor: false,
+  },
 }

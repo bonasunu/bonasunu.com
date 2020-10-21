@@ -1,5 +1,22 @@
 @tailwind base;
 
+body {
+  --bg: white;
+  color: #2d3748;
+
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg: #1d2d50;
+  color: #fcdab7;
+}
+a {
+  color: #29a19c;
+}
+
 @tailwind components;
 
 @tailwind utilities;
