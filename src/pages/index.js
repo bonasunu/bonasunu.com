@@ -1,5 +1,6 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import Bon from "../images/bon.jpeg"
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
         <div className="mt-8 grid gap-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 max-h-full">
           <div className="md:col-span-1">
             <img
-              src="../../bon.jpeg"
+              src={Bon}
               alt="profile"
               className="h-32 max-w-full rounded-md m-3"
             />
