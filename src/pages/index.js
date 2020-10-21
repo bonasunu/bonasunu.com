@@ -128,7 +128,7 @@ export default function Home() {
           </p>
         </div>
       </main>
-      <footer className="mb-8 mt-8 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-h-full">
+      <footer className="mb-8 mt-10 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-h-full">
         <div>
           <a
             className="m-3"
