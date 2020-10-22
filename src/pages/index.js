@@ -1,10 +1,12 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import Bon from "../images/bon.jpeg"
+import Meta from "../components/Meta"
 
 export default function Home() {
   return (
     <div className="max-w-2xl mx-auto flex flex-col min-h-screen">
+      <Meta />
       <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-h-full">
         <div className="m-3">
           <h1 className="text-3xl font-Consolas font-extrabold text-gray-800">
