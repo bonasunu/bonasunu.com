@@ -2,7 +2,7 @@ import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 export default () => (
-  <div className="mt-8 mb-1 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-h-full">
+  <div className="mt-8 mb-1 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
     <div className="m-3">
       <h1 className="text-3xl font-Consolas font-extrabold text-gray-800">
         Bonaventura Sunu

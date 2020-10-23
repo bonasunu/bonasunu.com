@@ -1,7 +1,7 @@
 import React from "react"
 
 export default () => (
-  <footer className="mb-8 mt-10 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 max-h-full">
+  <footer className="mb-8 mt-10 mr-2 ml-2 grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
     <div className="text-center sm:text-left">
       <a
         className="m-3 sm:m-1"
