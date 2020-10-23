@@ -30,13 +30,14 @@ export default () => (
               checked={theme === "dark"}
             />{" "}
             <span className="slider">
-              <span role="img" aria-label="hi">
+              {/* <span role="img" aria-label="hi">
                 &#x1F319;
-              </span>
+              </span> */}
             </span>
           </label>
         )}
       </ThemeToggler>
+      <span className="ml-2">Dark Mode</span>
     </div>
   </div>
 )
