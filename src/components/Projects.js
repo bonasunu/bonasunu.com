@@ -35,19 +35,6 @@ export default () => (
         I created this project to clone MDN (Mozilla Developer Network) Local
         Library using sequelize, postgreSQL, and jwt for authentication.{" "}
       </p>
-      <a
-        className="text-md font-Consolas font-extrabold text-gray-800 mb-2"
-        href="https://github.com/bonasunu/fullstackopen.id"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Fullstackopen.id
-      </a>
-      <p className="mb-3">
-        MDN Local Library is web app to manage the catalog for a local library.
-        I created this project to clone MDN (Mozilla Developer Network) Local
-        Library using sequelize, postgreSQL, and jwt for authentication.{" "}
-      </p>
     </div>
   </div>
 )
